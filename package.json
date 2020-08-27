@@ -1,5 +1,7 @@
 {
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "name": "ng-dynamic-forms-dypefork",
   "version": "12.0.0",
   "description": "A rapid form development library for Angular",

@@ -1,6 +1,9 @@
 {
-  "name": "@ng-dynamic-forms/core",
-  "version": "12.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "name": "@dypesolucoes/ng-dynamic-forms-core",
+  "version": "12.0.1",
   "description": "A rapid form development library for Angular",
   "keywords": [
     "angular",
@@ -18,14 +21,14 @@
   "author": {
     "name": "Udo Schöfer",
     "email": "ng2-dynamic-forms@udos86.de",
-    "url": "https://github.com/udos86/ng-dynamic-forms"
+    "url": "https://github.com/dypesolucoes/ng-dynamic-forms"
   },
   "main": "./bundles/core.umd.js",
   "module": "./fesm5/core.js",
   "typings": "./core.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udos86/ng-dynamic-forms.git"
+    "url": "git+https://github.com/dypesolucoes/ng-dynamic-forms.git"
   },
   "peerDependencies": {
     "@angular/common": "^10.0.0",
