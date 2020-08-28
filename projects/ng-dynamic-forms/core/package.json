@@ -3,7 +3,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "name": "@dypesolucoes/ng-dynamic-forms-core",
-  "version": "12.0.1",
+  "version": "12.0.2",
   "description": "A rapid form development library for Angular",
   "keywords": [
     "angular",
