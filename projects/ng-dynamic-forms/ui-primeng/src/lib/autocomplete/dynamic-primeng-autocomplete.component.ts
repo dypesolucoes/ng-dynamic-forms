@@ -42,8 +42,8 @@ export class DynamicPrimeNGAutoCompleteComponent extends DynamicPrimeNGFormContr
         super(layoutService, validationService);
     }
 
-    get suggestions(): string[] {
-        return this._suggestions;
+    get suggestions(): any[] {
+        return this.model.list as any[];
     }
 
     get viewChild(): AutoComplete {

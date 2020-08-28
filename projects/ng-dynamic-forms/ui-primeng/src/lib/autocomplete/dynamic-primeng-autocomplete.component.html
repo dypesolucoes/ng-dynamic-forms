@@ -4,6 +4,7 @@
                     [autoHighlight]="model.getAdditional('autoHighlight', false)"
                     [delay]="model.getAdditional('delay', 300)"
                     [dropdown]="model.getAdditional('dropdown', false)"
+                    [dropdownMode]="model.getAdditional('dropdownMode', 'blank')"
                     [emptyMessage]="model.getAdditional('emptyMessage', null)"
                     [field]="model.getAdditional('field', undefined)"
                     [forceSelection]="model.getAdditional('forceSelection', false)"
@@ -23,6 +24,6 @@
                     (onFocus)="onFocus($event)"
                     (onSelect)="onCustomEvent($event, 'onSelect')"
                     (onUnselect)="onCustomEvent($event, 'onUnselect')"
-                    (completeMethod)="onAutoComplete($event)"></p-autoComplete>
+                    (completeMethod)="onCustomEvent($event, 'completeMethod')"></p-autoComplete>
 
 </div>
